@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # challenge_final
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
@@ -65,3 +66,6 @@ If you want to learn more about building native executables, please consult <htt
 Easily start your REST Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+=======
+# challenge_final
+>>>>>>> fd8b000d10a6b9ab150c5d9591e71571fc16d0de
