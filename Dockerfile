@@ -3,8 +3,7 @@ FROM maven:3.9.6-eclipse-temurin-21 AS build
 WORKDIR /app
 
 # Copia os arquivos do projeto
-COPY pom.xml .
-COPY src ./src
+COPY . .
 
 # Faz o build do Quarkus (gera o diretório target/quarkus-app)
 RUN mvn clean package -DskipTests
